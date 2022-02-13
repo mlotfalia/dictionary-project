@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Dictionary is reloading.</p>
+        <p>Dictionary is reloading ...</p>
       </header>
     </div>
   );
