@@ -1,6 +1,5 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import solid from "@fortawesome/fontawesome-svg-core/import.macro";
 
 export default function Phonetic(props) {
   const element = <FontAwesomeIcon icon="fa-solid fa-volume-high" />;
