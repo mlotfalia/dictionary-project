@@ -1,8 +1,8 @@
 import "./App.css";
 
-import Dictionary from "./Dictionary.js";
+import Dictionary from "./Dictionary";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
@@ -12,20 +12,20 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer>
-          This project was coded by
-          <a href="https://inspiring-goldwasser-7318f4.netlify.app/">
-            Mahsa Lotfalia
-          </a>
-          and is
-          <a href="https://github.com/mlotfalia/dictionary-project">
-            open-sourced on GitHub
-          </a>
-          and hosted on <a href="https://netlify.com">Netlify</a>
+        <footer className="App-footer">
+          <small>
+            This project was coded by
+            <a href="https://inspiring-goldwasser-7318f4.netlify.app/">
+              Mahsa Lotfalia
+            </a>
+            and is
+            <a href="https://github.com/mlotfalia/dictionary-project">
+              open-sourced on GitHub
+            </a>
+            and hosted on <a href="https://netlify.com">Netlify</a>
+          </small>
         </footer>
       </div>
     </div>
   );
 }
-
-export default App;
