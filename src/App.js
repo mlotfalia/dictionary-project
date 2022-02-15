@@ -6,11 +6,9 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">
-          <p>Dictionary is reloading ...</p>
-        </header>
+        <header className="App-header"></header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="Music" />
         </main>
         <footer className="App-footer">
           <small>
